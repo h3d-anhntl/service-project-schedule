@@ -46,7 +46,7 @@ $config = [
             'enablePrettyUrl' => true,
             'enableStrictParsing' => false,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => ['employee','calendar']],
+                ['class' => 'yii\rest\UrlRule', 'controller' => ['employee','calendar','dayoff']],
             ],
         ],
         
